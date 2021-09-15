@@ -17,7 +17,7 @@ let package = Package(
                .upToNextMajor(from: "8.0.0")),
       .package(name: "Appboy_iOS_SDK",
                url: "https://github.com/BetworksJack/appboy-ios-sdk",
-               .branch("develop")),
+               .branch("master")),
     ],
     targets: [
         .target(
